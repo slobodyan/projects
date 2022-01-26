@@ -74,6 +74,10 @@ h2 {
   background-color: #1b438c;
 }
 
+.main-navbar-menu-list li:nth-last-child() {
+  padding-right: 0;
+}
+
 .main {
   display: -webkit-box;
   display: -webkit-flex;
