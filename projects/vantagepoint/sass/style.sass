@@ -1,0 +1,265 @@
+*
+    font-family: 'Source Sans Pro', sans-serif
+
+a
+    text-decoration: none
+    
+.textcenter
+    text-align: center        
+.container 
+    width: 1200px
+h2
+    font-size:  48px 
+.main-navbar
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 60
+    width: 100%
+    background-color: #1b438c
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &:hover
+        background-color: #0d2b5f
+    &-logo
+        padding-left: 25px
+        &-img
+        
+    &-menu
+        &-list
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin: 0
+            li
+                display: inline
+                color: #fff
+                padding: 23px 29px
+                cursor: pointer
+                &:hover
+                    background-color: #1b438c
+.main
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    min-height: 695px
+    background: url('../img/mountain.jpg') center (center / cover) no-repeat
+    &-layer
+        background-color: rgba(8, 41, 189, 0.5)
+        position: absolute
+        width: 100%
+        height: 100%
+        z-index: 1
+    &-wrapper
+        position: absolute
+        z-index: 5
+        top: 250px
+    &-text
+        
+        color: #fff
+        h1
+            font-size: 48px
+            font-weight: bold
+        h2
+            max-width: 800px
+            font-weight: 300
+            font-size: 48px
+            
+    &-button
+        width: 281px
+        margin-top: 30px
+        padding: 15px
+        border-radius: 10px
+        border: 1px solid #1F6FFF
+        color: #1F6FFF
+        font-size: 16px
+        font-weight: bold
+        &:hover
+            background-color: #1F6FFF
+            color: #fff
+        
+.what-we-do>.container
+    text-align: center
+.what-we-do>.container>p
+    margin-top: 20px      
+.what-we-do
+    padding-bottom: 80px
+    &-text
+        text-align: left
+        width: 60%
+        font-size: 22px 
+    &-header
+        text-align: left
+        margin-top: 30px
+    h2
+        font-size: 48px
+        font-weight: 300
+    &-img
+        bottom: 0
+        width: 40%
+.carousel
+    max-height: 530px
+    font-size: 46px
+    text-align: center
+    &-slider
+        &-item
+        height: 530px
+        background: url('../img/rohit-tandon-9wg5jCEPBsw-unsplash.webp') center (center / cover) no-repeat
+.quotes-pic
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-top: 30px
+.quotes-pic svg 
+    fill: #1f6fff
+.quotes-text
+    margin-top: 40px
+    font-size: 28px
+    font-weight: 300
+    line-height: 35px
+    color: #1f6fff
+    text-align: left
+    &-name
+        font-size: 24px
+        margin-bottom: 0
+
+
+.slick-prev, .slick-next
+    font-size: 0
+    line-height: 0
+    position: absolute
+    top: 50%
+    display: block
+    width: 50px
+    height: 50px
+    padding: 0
+    -webkit-transform: translate(0, -50%)
+    -ms-transform: translate(0, -50%)
+    transform: translate(0, -50%)
+    cursor: pointer
+    color: transparent
+    border: none
+    outline: none
+    background-color: #1f6fff
+    &:hover
+        background-color: #e7e1e1
+        
+.slick-prev 
+    left: 55px
+    
+
+.slick-next
+    right: 55px
+
+
+    
+
+
+.photo
+    width: 83px
+    height: 83px
+    object-fit: cover
+    border-radius: 50%
+    margin: 0 10px
+.how-it-works
+    padding: 50px 0 80px 0
+    background-color: #f2f2f2
+    
+
+
+    &-steps
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+       
+        &-item
+            width: 32%
+            padding: 80px 20px
+            background: #fff
+            text-align: center
+            margin-bottom: 15px
+            &:nth-child(5)
+                width: 66%
+            img
+                width: 48px
+            &-text
+                font-size: 18px
+                text-align: left
+           
+
+.how-it-works h2
+    text-align: center
+    font-size:  48px 
+
+.who-help
+    padding: 80px 0 30px 0
+    &-cards
+        display: flex
+        justify-content: space-between
+        &-item
+            width: 32%
+            padding: 128px 20px
+            background-image: url('../img/banner@2x-1.jpg')
+            background-attachment: fixed
+            background-position: center top
+            background-size: cover
+            text-align: center
+            color: #fff
+
+.contacts
+    display: flex
+    align-items: center
+    justify-content: space-between
+    min-height: 420px
+    background: url("../img/Mask-Group@2x-(1).jpg") center (center / cover) no-repeat
+    &-logo
+        text-align: center
+        padding-top: 80px
+    &-text
+        font-size: 44px
+        margin-top: 24px
+        color: #fff
+        text-align: center
+    &-buttons
+        margin: 20px
+        text-align: center
+        &-item
+            width: 281px
+            padding: 13px
+            border-radius: 6px
+            background-color: #1f6fff
+            border: none
+            margin-right: 10px
+            color: #fff
+            font-size: 18px
+            font-weight: 600
+            &:hover
+                background-color:#1b68f7
+footer
+    background-color: #1e1e41
+    padding: 30px 0 0 0
+    line-height: 28px
+.footer-col
+    display: flex
+    align-items: start
+    justify-content: space-between
+    ul
+        list-style: none
+        margin-bottom: 1rem
+    a
+        color: #fff
+        font-size: 16px
+
+.footer-contacts>ul>li
+    &:nth-child(3)
+        margin-top: 9px
+        margin-bottom: 10px
+
+.footer-bottom
+    color: #fff
+    padding: 17px
+    font-size: 14px
+    background-color: #181836
+    margin-top: 40px
