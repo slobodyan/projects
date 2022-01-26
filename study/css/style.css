@@ -97,10 +97,9 @@ h6 {
 }
 
 .block {
+    background: rgb(70, 125, 226);
     margin: 100px 100px;
-}
-
-.block_text {
-    font-size: 35px;
-    text-shadow: 3px 1px 1px #0fffff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }

@@ -332,18 +332,21 @@ h2 {
 }
 
 .contacts {
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  text-align: center;
   min-height: 420px;
   background: url("../img/Mask-Group@2x-(1).jpg") center center/cover no-repeat;
 }
@@ -361,8 +364,7 @@ h2 {
 }
 
 .contacts-buttons {
-  margin: 20px;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .contacts-buttons-item {
