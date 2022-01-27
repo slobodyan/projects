@@ -7,7 +7,13 @@ a
 .textcenter
     text-align: center        
 .container 
-    width: 1200px
+    max-width: 1200px
+    
+
+.flex 
+    display: flex
+    flex-flow: column
+    justify-content: center
 h2
     font-size:  48px 
 .main-navbar
@@ -59,6 +65,7 @@ h2
         position: absolute
         z-index: 5
         top: 250px
+       
     &-text
         
         color: #fff
@@ -102,6 +109,10 @@ h2
     &-img
         bottom: 0
         width: 40%
+    &-wrapper
+        display: flex
+        align-items: center
+        justify-content: space-between
 .carousel
     width: 100%
     max-height: 530px
@@ -161,13 +172,11 @@ h2
     height: 83px
     object-fit: cover
     border-radius: 50%
-    margin: 0 10px
+    
 .how-it-works
     padding: 50px 0 80px 0
     background-color: #f2f2f2
-    
-
-
+  
     &-steps
         display: flex
         justify-content: space-between
@@ -264,3 +273,52 @@ footer
     font-size: 14px
     background-color: #181836
     margin-top: 40px
+
+@media (max-width: 996px)
+    .container
+        width: 100%
+        margin: 0
+
+    .slick-prev, .slick-next
+        top: 90%
+    .how-it-works-steps
+        flex-flow: column
+        align-items: center
+        &-item
+            width: 70%
+            &:nth-child(5)
+                width: 70%
+            
+    .what-we-do
+        &-wrapper            
+            flex-flow: column
+            flex-direction: column-reverse 
+        &-header
+            text-align: center
+
+    .who-help-cards
+        flex-direction: column
+        align-items: center
+      
+        &-item
+            width: 70%
+            margin: 0
+            margin-bottom: 10px
+    
+
+
+    .contacts-text
+        font-size: 38px
+    
+    .contacts-buttons
+        display: flex
+        flex-direction: column
+        align-items: center
+        &-item
+            margin-bottom: 10px
+        &:nth-last-child()
+            margin-bottom: 0
+
+    .footer-col
+        flex-direction: column
+        

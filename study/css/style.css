@@ -103,3 +103,9 @@ h6 {
     flex-flow: column;
     align-items: center;
 }
+
+.block-item {
+    border: 1px solid black;
+    background: rgba(70, 125, 226, 0.8);
+    margin-top: 20px;
+}

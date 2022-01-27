@@ -11,7 +11,23 @@ a {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 h2 {
@@ -172,6 +188,21 @@ h2 {
   width: 40%;
 }
 
+.what-we-do-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .carousel {
   width: 100%;
   max-height: 530px;
@@ -256,7 +287,6 @@ h2 {
      object-fit: cover;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  margin: 0 10px;
 }
 
 .how-it-works {
@@ -426,4 +456,91 @@ footer {
   font-size: 14px;
   background-color: #181836;
   margin-top: 40px;
+}
+
+@media (max-width: 996px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .slick-prev, .slick-next {
+    top: 90%;
+  }
+  .how-it-works-steps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .how-it-works-steps-item {
+    width: 70%;
+  }
+  .how-it-works-steps-item:nth-child(5) {
+    width: 70%;
+  }
+  .what-we-do-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .what-we-do-header {
+    text-align: center;
+  }
+  .who-help-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .who-help-cards-item {
+    width: 70%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .contacts-text {
+    font-size: 38px;
+  }
+  .contacts-buttons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contacts-buttons-item {
+    margin-bottom: 10px;
+  }
+  .contacts-buttons:nth-last-child() {
+    margin-bottom: 0;
+  }
+  .footer-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
