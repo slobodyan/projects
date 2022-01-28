@@ -6,7 +6,8 @@
     border: 0;
 }
 
-*,
+
+/* *,
 *:before,
 *:after {
     -moz-box-sizing: border-box;
@@ -87,25 +88,26 @@ h5,
 h6 {
     font-size: inherit;
     font-weight: 400;
-}
+} */
 
 
 /*--------------------*/
 
-.textcenter {
-    text-align: center;
-}
-
 .block {
-    background: rgb(70, 125, 226);
-    margin: 100px 100px;
+    width: 100%;
+    height: 200px;
+    background-color: rosybrown;
     display: flex;
-    flex-flow: column;
+    justify-content: space-between;
     align-items: center;
 }
 
 .block-item {
-    border: 1px solid black;
-    background: rgba(70, 125, 226, 0.8);
-    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

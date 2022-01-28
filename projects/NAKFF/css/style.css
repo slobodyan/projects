@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 1260px;
+  margin: 0 auto;
+}
+
+.textbold {
+  font-weight: bold;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.header > .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: space-between;
+  -webkit-align-items: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+
+.header {
+  height: 90px;
+  padding: 9px;
+}
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.header-slogan {
+  font-size: 13px;
+  font-weight: normal;
+  width: 25%;
+}
+
+.header-adress {
+  font-size: 14px;
+}
+
+.header-tel {
+  font-size: 22px;
+}
+
+.top-nav {
+  width: 100%;
+  height: 50px;
+  background-color: #01B3B4;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-nav-menu {
+  width: 100%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+.top-nav-menu li {
+  display: inline;
+}
+
+.top-nav-menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.slider {
+  width: 100%;
+  height: 515px;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+
+.branches {
+  padding: 35px 0 95px 0;
+}
+
+.branches-cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.branches-cards-item {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F2F2F2;
+  color: #000;
+  width: 230px;
+  height: 108px;
+}
+
+.branches-cards-item:hover {
+  background-color: #01B3B4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.branches-cards-item-text {
+  width: 65px;
+  margin-left: 10px;
+}
+
+.branches-img {
+  margin: 10px 0;
+  width: 1260px;
+}
+
+.branches-img img {
+  width: 100%;
+}
+
+.branches-hospitalization {
+  text-align: center;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.branches-hospitalization h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.branches-hospitalization-steps {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+}
+
+.our-doctors {
+  padding: 75px 0 125px 0;
+  background-color: #F2F2F2;
+  min-height: 600px;
+  text-align: center;
+  width: 100%;
+}
+
+.our-doctors h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.our-doctors-cards {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-doctors-cards-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  width: 210px;
+  height: 315px;
+}
+
+.our-doctors-cards-item-text {
+  text-align: left;
+}
+
+.our-doctors-cards-item-position {
+  margin-top: 10px;
+}
+
+.patients-guarantees {
+  padding: 70px 0 80px 0;
+}
+
+.reviews {
+  padding: 70px 0 80px 0;
+  background-color: #F2F2F2;
+}
+
+.reviews-header {
+  margin: 0 auto;
+}
+
+.reviews-cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.reviews-cards-item {
+  width: 300px;
+  height: 285px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #C4C4C4;
+}
