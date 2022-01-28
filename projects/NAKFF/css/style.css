@@ -164,6 +164,10 @@ h2 {
   cursor: pointer;
 }
 
+.branches-cards-item img {
+  margin-right: 10px;
+}
+
 .branches-cards-item-text {
   width: 65px;
   margin-left: 10px;
@@ -205,6 +209,11 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 80%;
+}
+
+.branches-hospitalization-steps-items a {
+  text-decoration: none;
+  color: #000;
 }
 
 .our-doctors {
