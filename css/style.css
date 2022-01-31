@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+[class*="__container"] {
+    max-width: 1087px;
+    margin: 0 auto;
+}
+
+.projets__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.project_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_item:hover {
+    cursor: pointer;
+}
+
+.project_item img {
+    width: 400px;
+}
+
+.project_text {
+    text-align: center;
+}
+
+.project_text a {
+    text-decoration: none;
+    color: rgb(97, 91, 91);
+}
