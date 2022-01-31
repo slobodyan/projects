@@ -152,7 +152,9 @@ body {
 }
 
 @media (max-width: 991.98px) {
-    min-height: 80px;
+    .header__container {
+        min-height: 80px;
+    }
 }
 
 .header__logo {}
